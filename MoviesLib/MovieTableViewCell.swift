@@ -29,9 +29,9 @@ class MovieTableViewCell: UITableViewCell {
 
     
     func prepare(with movie: Movie){
-        ivPoster.image = UIImage(named: movie.image)
+        //ivPoster.image = UIImage(named: movie.image)
         lbTitle.text = movie.title
-        lbSumary.text = movie.summary
+        lbSumary.text = movie.sumary
         lbRating.text = "⭐️ \(movie.rating)/10"
     }
 }

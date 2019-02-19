@@ -5,7 +5,7 @@
 //  Created by Usuário Convidado on 13/02/19.
 //  Copyright © 2019 FIAP. All rights reserved.
 //
-
+/*
 import Foundation
 
 struct Movie: Codable {
@@ -16,3 +16,4 @@ struct Movie: Codable {
     let summary: String
     let image: String
 }
+*/
