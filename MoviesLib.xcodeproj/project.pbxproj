@@ -19,6 +19,8 @@
 		AC7B290E22121FAB00A9B0D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7B290C22121FAB00A9B0D1 /* Main.storyboard */; };
 		AC7B291022121FAD00A9B0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7B290F22121FAD00A9B0D1 /* Assets.xcassets */; };
 		AC7B291322121FAD00A9B0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7B291122121FAD00A9B0D1 /* LaunchScreen.storyboard */; };
+		AC8C74092227600E0077AA72 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C74082227600E0077AA72 /* API.swift */; };
+		AC8C740B22276CBA0077AA72 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C740A22276CBA0077AA72 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		AC7B290F22121FAD00A9B0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7B291222121FAD00A9B0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7B291422121FAD00A9B0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8C74082227600E0077AA72 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AC8C740A22276CBA0077AA72 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				AC43D143221B84BE0037285D /* MoviesLib.xcdatamodeld */,
 				AC7B290A22121FAB00A9B0D1 /* MovieViewController.swift */,
 				AC7B290C22121FAB00A9B0D1 /* Main.storyboard */,
+				AC8C740A22276CBA0077AA72 /* MapViewController.swift */,
+				AC8C74082227600E0077AA72 /* API.swift */,
 				AC43D148221B8EA10037285D /* MovieRegisterViewController.swift */,
 				AC7B290F22121FAD00A9B0D1 /* Assets.xcassets */,
 				AC7B291122121FAD00A9B0D1 /* LaunchScreen.storyboard */,
@@ -160,10 +166,12 @@
 				AC43D149221B8EA10037285D /* MovieRegisterViewController.swift in Sources */,
 				AC213B602214F65900C06905 /* MovieTableViewCell.swift in Sources */,
 				AC213B5E2214E8C600C06905 /* MoviesTableViewController.swift in Sources */,
+				AC8C740B22276CBA0077AA72 /* MapViewController.swift in Sources */,
 				AC43D145221B84BE0037285D /* MoviesLib.xcdatamodeld in Sources */,
 				AC7B290B22121FAB00A9B0D1 /* MovieViewController.swift in Sources */,
 				AC43D147221B8B640037285D /* UIViewController+CoreData.swift in Sources */,
 				AC7B290922121FAB00A9B0D1 /* AppDelegate.swift in Sources */,
+				AC8C74092227600E0077AA72 /* API.swift in Sources */,
 				AC213B5B2214DB1800C06905 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
